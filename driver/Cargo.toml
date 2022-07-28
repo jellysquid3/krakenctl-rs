@@ -1,0 +1,13 @@
+[package]
+name = "krakenusb"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+hidapi = "1.4.1"
+zerocopy = "0.6.1"
+
+[features]
+default = [ "nzxt_kraken" ]
+nzxt_kraken = [ ]

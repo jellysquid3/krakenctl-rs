@@ -1,0 +1,8 @@
+# JetBrains IDE
+/.idea
+
+# Build directory
+/target
+
+# User files
+/config.toml

@@ -1,0 +1,6 @@
+[workspace]
+members = [ "driver", "cli" ]
+
+[profile.release]
+opt-level = "z"
+lto = true
