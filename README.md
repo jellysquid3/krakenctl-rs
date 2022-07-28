@@ -40,7 +40,7 @@ Description=NZXT Kraken pump speed management
 
 [Service]
 Type=simple
-ExecStart=/opt/krakenctl --config /opt/krakenctl.toml
+ExecStart=/opt/krakenctl run --config /opt/krakenctl.toml
 
 [Install]
 WantedBy=multi-user.target
